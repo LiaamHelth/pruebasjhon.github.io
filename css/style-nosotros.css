@@ -1,0 +1,194 @@
+.headerns{
+    height: 80vh;
+    padding: 6px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #dcdfe9;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-circle{
+  height: 30px;
+}
+.h1ns{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 100%;
+    margin: 20px auto;
+    
+}
+
+
+
+@media (min-width: 1000px){
+    .h1ns{
+        font-size: 4rem;
+        max-width: 80%;
+    }
+
+    .headerns{
+        flex-direction: row;
+        height: 70vh;
+        padding: 50px;
+    }
+}
+
+.valores{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.h1vl{
+    color: rgb(49, 49, 49);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.h2vl{
+    color: rgb(81, 81, 81);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.contenedorvl{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boxvl{
+    height: 300px;
+    width: 340px;
+    margin: auto;
+    background-color: rgb(218, 218, 218);
+    border-radius: 1em;
+    padding: 5px;
+}
+
+@media (min-width: 1000px){
+
+    .valores{
+        height: 100vh;
+        padding: 50px;
+    }
+
+    .h1vl{
+        font-size: 4rem;
+        
+    }
+
+    .h2vl{
+        font-size: 2rem;
+        color: rgb(81, 81, 81);
+      font-weight: 500;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      
+    }
+
+    .contenedorvl{
+        flex-direction: row;
+  
+    }
+
+    .boxvl{
+        height: 340px;
+        width: 400px;
+        padding: 15px;
+    }
+}
+
+
+.djcolor{
+    color: #000;
+    font-style: italic;
+}
+
+.h3ns{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin: 10px auto 1px auto;
+    color: rgb(46, 46, 46);
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px rgb(193, 193, 193);
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hrns{
+    margin: 1rem 2rem;
+  color: inherit;
+  border-radius: 5rem;
+  border-top: 4px solid;
+  opacity: 0.25;
+}
+
+.pns{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.svgns{
+    align-self: self-start;
+}
+
+.empleados{
+    background-color:#533e7c;
+    color: #dcdfe9;
+    text-align:center;
+}
+
+.empleados  .h1em{
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.contenedorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+@media (min-width: 1000px){
+    .empleados{
+        background-color:#533e7c;
+        color: #dcdfe9;
+        text-align:center;
+    }
+    
+    
+    .contenedorem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .empleados  .h1em{
+        font-size: 6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-bottom: 10vh;
+    }
+
+
+}
