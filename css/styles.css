@@ -10911,7 +10911,6 @@ textarea.form-control-lg {
   height: 500px;
 }
 
-/* From Uiverse.io by alexruix */ 
 .card {
   width: 440px;
   height: 550px;
@@ -10935,6 +10934,7 @@ textarea.form-control-lg {
 /* Image */
 .card-img {
   background-size: cover;
+  background-image: url(/assets/contactanos/tienda-afuera.jpeg);
   background-image: url(/assets/contactanos/tienda-afuera.jpeg);
   height: 100%;
   width: 100%;
@@ -10983,8 +10983,6 @@ textarea.form-control-lg {
   font-size: 0.9em;
 }
 
-
-/* Hovers */
 .card:hover {
   box-shadow: 0px 15px 30px rgba(80, 80, 80, 0.3);
 }
@@ -11012,4 +11010,5 @@ textarea.form-control-lg {
 
 #princi{
   margin-bottom: 30px;
+  justify-content: center;
 }
